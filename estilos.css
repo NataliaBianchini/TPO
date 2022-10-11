@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: rgb(248, 173, 138);
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+header div{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+header div img{
+    height: 100px;
+    width: 100px;
+    margin-top: 0.5rem;
+    justify-self: left;
+    margin-left: -2rem;
+}
+header  div h1{
+    font-weight: 800;
+    font-size: 50pt;
+    color: rgb(189, 48, 23);
+    margin-left: 5rem;
+    
+
+}
+.menu{
+    background-color: antiquewhite;
+}
+.menu li{
+    display: flex;
+    list-style: none;
+    background-color: antiquewhite;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(61, 15, 15);
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20pt;
+
+}
+body{
+    background-color: rgb(245, 184, 143);
+}
+section h2{
+    color: rgb(75, 15, 15);
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+}
+section img{
+     display: flex;
+     width: 80%;
+     height: 600px;
+     flex-direction: column;
+     align-self: center;
+     margin: 2rem;
+}
+footer{
+    background-color: rgb(184, 20, 20);
+    color: beige;
+    text-align: center;
+    height: 15%;
+}
+footer a{
+    text-decoration: none;
+    color: beige;
+}
+.oreo {
+    background-color: rgb(196, 199, 240);
+    display: flex;
+    flex-direction: column;
+}
+.titulo_postres, .titulo_dulces, .titulo_saludables, .titulo_veganas, .titulo_sin_tacc {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 80pts;
+    text-align: center;
+}
+.receta1, .receta2{
+    margin: 1rem;
+    padding-left: 1rem;
+    color:black;
+}
+.receta1 h2 , .receta2 h2{
+    text-align: left;
+    color: black;
+}
+.receta1 img, .receta2 img{
+    height: 400px;
+    width: 30%;
+}
+.receta1 ul li, .receta2 ul li {
+    margin-left: 1rem;
+}
+receta1 ol li, receta2 ol li{
+    text-align: justify;
+    margin-left: 1rem;
+}
+.recetas_dulces{
+    background-color: rgb(139, 82, 82);
+}
+.recetas_saludables {
+    background-color: rgb(103, 173, 122);
+}
+.recetas_veganas{
+    background-color: rgb(150, 118, 76);
+}
+.recetas_sin_tacc {
+    background-color: rgb(185, 144, 189);
+}
+.formulario {
+    padding: 1rem;
+    text-align: center;
+    font-size: medium;
+}
+.contacto_imput{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 241, 224);
+    color: gray;
+    width: 80%;
+    padding: 1rem; 
+    box-shadow: none;  
+}
+.contacto_btn{
+    width: 100px;
+    color: gray;
+    text-decoration-style: solid;
+}
+@media (min-width: 600px){
+    header div img {
+        align-items: flex-start;
+
+    }
+    .menu li {
+        display: inline;
+    }
+    section img {
+        width: 30%;
+        display: inline;
+        margin: 00.5rem;
+        align-content: space-between;    
+    }
